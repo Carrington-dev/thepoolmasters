@@ -1,0 +1,379 @@
+{% extends 'base.html' %}
+<!--  -->
+{% load static %}
+<!--  -->
+{% block content %}
+<!--  -->
+<!-- ======= Breadcrumbs ======= -->
+<section class="breadcrumbs">
+    <div class="container">
+
+        <ol>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li>About</li>
+        </ol>
+        <h2>About</h2>
+
+    </div>
+</section>
+<!-- End Breadcrumbs -->
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about  my-5">
+
+    <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+            <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="content">
+                    <h3>Who We Are</h3>
+                    <h2>A masterpiece engineering company focus on helping others grow.</h2>
+                    <p>
+                        The fourth industrial revolution is upon us. Organizations are faced with a myriad of ICT challenges; some are playing catch-up while others are faced with a fight to remain relevant. Stemgon assists businesses in designing and implementing ICT based
+                        solutions to their unique challenges. Stemgon develops tailor-made software, applications and platforms for any type of organization. Stemgon is “pushing limits” in the technological space in South Africa and beyond. </p>
+                    <div class="text-center text-lg-start">
+                        <a href="#values" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span>Read More</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+                <img src="{% static 'img/about.jpg' %}" class="img-fluid" alt="">
+            </div>
+
+        </div>
+    </div>
+
+</section>
+<!-- End About Section -->
+
+<!-- ======= Values Section ======= -->
+<section id="values" class="values">
+
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+            <h2>Shared Values</h2>
+            <p>Everyone matters, so each one matters. </p>
+        </header>
+
+        <div class="row">
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="box">
+                    <img src="{% static 'img/values-1.png' %}" class="img-fluid" alt="">
+                    <h3>Respect for well-being. </h3>
+                    <p> We got into technology and engineering because we wanted to help people live their best lives — and in a way, that’s what we do here.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+                <div class="box">
+                    <img src="{% static 'img/values-2.png' %}" class="img-fluid" alt="">
+                    <h3>Everyone matters. </h3>
+                    <p>I love that Stemgon meets people where they are, at their needs and skill level. We help everyone to grow in their own direction</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+                <div class="box">
+                    <img src="{% static 'img/values-3.png' %}" class="img-fluid" alt="">
+                    <h3>Focus on the user.</h3>
+                    <p>Since the beginning, we’ve focused on providing the best user experience possible. Whether we’re designing a new Internet browser or a new tweak to the look of the homepage.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End Values Section -->
+
+<!-- ======= Counts Section ======= -->
+<section id="counts" class="counts">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-journal-richtext" style="color: #ee6c20;"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Projects</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-headset" style="color: #15be56;"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Hours Of Support</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                    <i class="bi bi-people" style="color: #bb0852;"></i>
+                    <div>
+                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Hard Workers</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- End Counts Section -->
+
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+
+    <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+            <h2>Our Principles</h2>
+            <p>We use our Leadership Principles every day </p>
+        </header>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <img src="{% static 'img/features.png' %}" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+                <div class="row align-self-center gy-4">
+
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                        <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Customer obsession</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                        <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Invent and Simplify </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                        <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Learn and Be Curious </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                        <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Hire and Develop the Best </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                        <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Think Big </h3>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                        <div class="feature-box d-flex align-items-center">
+                            <i class="bi bi-check"></i>
+                            <h3>Deliver results</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- / row -->
+
+        <!-- Feature Tabs -->
+        <div class="row feture-tabs" data-aos="fade-up">
+            <div class="col-lg-6">
+                <h3>Reveal new horizons with our Data Science experts to benefit from advanced solutions. </h3>
+
+                <!-- Tabs -->
+                <ul class="nav nav-pills mb-3">
+                    <li>
+                        <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Education</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-bs-toggle="pill" href="#tab2">Fintech</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-bs-toggle="pill" href="#tab3">Analytics</a>
+                    </li>
+                </ul>
+                <!-- End Tabs -->
+
+                <!-- Tab Content -->
+                <div class="tab-content">
+
+                    <div class="tab-pane fade show active" id="tab1">
+                        <p>We deliver state-of-the-art websites by using Agile methodology to ensure project consistency and completeness. </p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Auction for car dealership </h4>
+                        </div>
+                        <p>An online platform where cars would be put up for the auction. The idea means the user can make bets and watch the process in his account. .</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Learning Management Systems</h4>
+                        </div>
+                        <p>As Stemgon we have build a couple of elearning platforms which also tracks the user's reading progress. This platform allows rating of courses and comments. </p>
+                    </div>
+                    <!-- End Tab 1 Content -->
+
+                    <div class="tab-pane fade show" id="tab2">
+                        <p>We make artificial intelligence evident by helping businesses to discover what they can do with AI.</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Machine Learning </h4>
+                        </div>
+                        <p>Machine learning is not an outworld thing. In fact, to get an ML algorithm working, you do not have to spend months fine-tuning parameters or assemble terabytes of data. .
+                        </p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>What is Big Data?</h4>
+                        </div>
+                        <p>We live in the age of data, and the ability to work with it grants multiple benefits. Many companies now use basic data analytics tools, but the amount of data grows exponentially. It leads to the emergence of new data management
+                            techniques and approaches, in particular Big Data. And the demand for Bid Data software development is rising.
+
+                        </p>
+                    </div>
+                    <!-- End Tab 2 Content -->
+
+                    <div class="tab-pane fade show" id="tab3">
+                        <p>The most important aspect of digital marketing is gathering data & analyzing to make decisions & conclusions.</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Data Analysis Services</h4>
+                        </div>
+                        <p>Data analysis services allow businesses to get their data collected, processed and presented to them in the form of actionable insights while avoiding investments in the development and administration of an analytics solution.</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Matpotlib</h4>
+                        </div>
+                        <p>We use pandas and Matpotlib to analysize large sums of data and break it into small understandable chunks which you can relate to.</p>
+                    </div>
+                    <!-- End Tab 3 Content -->
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+                <img src="{% static 'img/features-2.png' %}" class="img-fluid" alt="">
+            </div>
+
+        </div>
+        <!-- End Feature Tabs -->
+
+        <div class="container" data-aos="fade-up">
+
+
+
+            <!-- Feature Icons -->
+            <div class="row feature-icons" data-aos="fade-up">
+                <h3>What makes us different?</h3>
+
+                <div class="row">
+
+                    <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                        <img src="{% static 'img/features-3.png' %}" class="img-fluid p-4" alt="">
+                    </div>
+
+                    <div class="col-xl-8 d-flex content">
+                        <div class="row align-self-center gy-4">
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up">
+                                <i class="ri-line-chart-line"></i>
+                                <div>
+                                    <h4>Software Development </h4>
+                                    <p>Stemgon is committed to engineering solutions based on sound industry standards giving the customer innovative software based on world class technologies.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                                <i class="ri-stack-line"></i>
+                                <div>
+                                    <h4>Whatsapp Bots</h4>
+                                    <p>Progressively integrate with Whatsapp Business API as part of your business solution, to interact with clients.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                                <i class="ri-brush-4-line"></i>
+                                <div>
+                                    <h4>Business Intelligences</h4>
+                                    <p>Business Intelligence solutions to help visualise your business data using state of the art reports. </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                                <i class="ri-magic-line"></i>
+                                <div>
+                                    <h4>Consulting</h4>
+                                    <p>We put in the groundwork in understanding your business so that together, we can realise your project’s greatest potential. </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                                <i class="ri-command-line"></i>
+                                <div>
+                                    <h4>Quality Assurance </h4>
+                                    <p>Solutions engineered by Stemgon can always be seamlessly integrated with your existing corporate infrastructure. We also guarantee thorough QA and optimization for any kind of mobile device. </p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                                <i class="ri-radar-line"></i>
+                                <div>
+                                    <h4>Business Analysis </h4>
+                                    <p>Business Analysts aim to investigate and gather all the requirements, analyze every detail, and render an overall vision in the form of pixel-perfect documentation</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- End Feature Icons -->
+
+        </div>
+
+    </div>
+
+</section>
+<!-- End Features Section -->
+
+{% endblock content %}

@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+<!--  -->
+{% load static %}
+<!--  -->
+{% block index %}
+<!--  -->
+<section id="hero" class="hero d-flex align-items-center">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers, data engineers, electrical engineers, computer engineers, computer scientist, actuaries and more focused on making sure you grow while understanding your data.</h2>
+                <div data-aos="fade-up" data-aos-delay="600">
+                    <div class="text-center text-lg-start">
+                        <a href="#features" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                            <span>Get Started</span>
+                            <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+                <img src="{% static 'img/hero-img.png' %}" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+{% endblock index %}
+<!--  -->
+{% block content %}
+<!--  -->
+
+<!-- ======= Features Section ======= -->
+<section id="features" class="features">
+
+    <div class="container" data-aos="fade-up">
+
+
+
+        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+            <h3>What makes us different?</h3>
+
+            <div class="row">
+
+                <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+                    <img src="{% static 'img/features-3.png' %}" class="img-fluid p-4" alt="">
+                </div>
+
+                <div class="col-xl-8 d-flex content">
+                    <div class="row align-self-center gy-4">
+
+                        <div class="col-md-6 icon-box" data-aos="fade-up">
+                            <i class="ri-line-chart-line"></i>
+                            <div>
+                                <h4>Software Development </h4>
+                                <p>Stemgon is committed to engineering solutions based on sound industry standards giving the customer innovative software based on world class technologies.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <i class="ri-stack-line"></i>
+                            <div>
+                                <h4>Whatsapp Bots</h4>
+                                <p>Progressively integrate with Whatsapp Business API as part of your business solution, to interact with clients.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <i class="ri-brush-4-line"></i>
+                            <div>
+                                <h4>Business Intelligences</h4>
+                                <p>Business Intelligence solutions to help visualise your business data using state of the art reports. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <i class="ri-magic-line"></i>
+                            <div>
+                                <h4>Consulting</h4>
+                                <p>We put in the groundwork in understanding your business so that together, we can realise your project’s greatest potential. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                            <i class="ri-command-line"></i>
+                            <div>
+                                <h4>Quality Assurance </h4>
+                                <p>Solutions engineered by Stemgon can always be seamlessly integrated with your existing corporate infrastructure. We also guarantee thorough QA and optimization for any kind of mobile device. </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                            <i class="ri-radar-line"></i>
+                            <div>
+                                <h4>Business Analysis </h4>
+                                <p>Business Analysts aim to investigate and gather all the requirements, analyze every detail, and render an overall vision in the form of pixel-perfect documentation</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Feature Icons -->
+
+    </div>
+
+</section>
+<!-- End Features Section -->
+
+
+{% endblock content %}
